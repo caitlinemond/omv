@@ -3891,7 +3891,8 @@ h1.alert {
 	}
 	.middle-container {
 		width: 100%;
-		text-align: center;s
+		text-align: center;
+		position: relative;
 	}
 	.shop-container p, .shop-phone, .shop-site, .shop-hours {
 		text-align: center;
