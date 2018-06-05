@@ -2,7 +2,7 @@
 
 add_action( 'genesis_loop', 'custom_loop' );
 
-
+// this is the custom loop
 function custom_loop(){
 
 $hero_image = get_field('hero_image');
