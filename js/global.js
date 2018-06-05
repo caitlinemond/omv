@@ -19,4 +19,15 @@
 
 	});
 
+// Vertical Align Shop Logos
+	$('.shop-logo').css({
+        'position' : 'absolute',
+        'left' : '50%',
+        'top' : '50%',
+        'margin-left' : -$('.shop-logo').width()/2,
+        'margin-top' : -$('.shop-logo').height()/2
+    });
+
 })( jQuery );
+
+
